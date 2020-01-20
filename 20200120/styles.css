@@ -1,0 +1,33 @@
+@keyframes createbtn {
+  0% {
+    transform: translateX(-300px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes btnHover {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.button {
+  width: 100px;
+  height: 40px;
+  text-align: center;
+  box-sizing: border-box;
+  animation: createbtn 0.5s forwards;
+  border: none;
+  background: pink;
+  border-radius: 7%;
+  opacity: 0.6;
+}
+
+.button:hover {
+  animation: btnHover 1s infinite;
+}
