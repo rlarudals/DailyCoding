@@ -1,0 +1,33 @@
+@import "./reset.css";
+
+.box {
+  display: flex;
+  flex-direction: row;
+}
+
+.box .box__col1 {
+  width: 30%;
+  height: 100vh;
+  background-image: url("./bg.jpg");
+  background-size: cover;
+}
+
+.box .box__col2 {
+  width: 70%;
+  height: 100vh;
+  background-color: burlywood;
+  display: flex;
+  flex-direction: row;
+}
+
+.box .box__col2 .box__top {
+  background-color: red;
+}
+
+.box .box__col2 .box__con {
+  background-color: black;
+}
+
+.box .box__col2 .box__top .box__right {
+  justify-content: space-between;
+}
