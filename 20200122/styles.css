@@ -16,18 +16,70 @@
   width: 70%;
   height: 100vh;
   background-color: burlywood;
-  display: flex;
-  flex-direction: row;
 }
 
 .box .box__col2 .box__top {
-  background-color: red;
-}
-
-.box .box__col2 .box__con {
-  background-color: black;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  margin-top: 3%;
+  margin-right: 3%;
 }
 
 .box .box__col2 .box__top .box__right {
-  justify-content: space-between;
+  color: #fff;
+}
+
+.box .box__col2 .box__con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15%;
+}
+
+.box .box__col2 .box__con .con__btn {
+  width: 200px;
+  height: 35px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 15px;
+  padding-left: 5px;
+  background-color: #cc8e35;
+  color: #fff;
+}
+
+.box .box__col2 .box__con .con__input {
+  margin-top: 2%;
+  margin-right: 15px;
+  width: 200px;
+  height: 35px;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  border-radius: 15px;
+  padding-left: 5px;
+}
+
+.box .box__col2 .box__con .font {
+  margin-left: 20px;
+  font-size: 27px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.box .box__col2 .box__con .input {
+  display: flex;
+  flex-direction: row;
+  margin-right: 90px;
+  border-radius: 15px;
+  padding-left: 5px;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  width: 130px;
+  height: 35px;
 }
